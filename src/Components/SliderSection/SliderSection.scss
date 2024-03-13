@@ -1,0 +1,21 @@
+.slider_section {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    margin: 5rem;
+
+    .group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+    }
+
+    @media (max-width: 768px) {
+        .group {
+            flex-direction: column;
+        }
+    }
+}
