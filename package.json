@@ -1,18 +1,20 @@
 {
   "name": "technocean",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --max-warnings 0"
   },
   "dependencies": {
     "browserify-zlib": "^0.2.0",
     "buffer": "^6.0.3",
-    "dotenv": "^16.4.5",
     "events": "^3.3.0",
     "firebase": "^10.9.0",
     "ldrs": "^1.0.1",
